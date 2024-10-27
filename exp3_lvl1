@@ -1,0 +1,24 @@
+    #include <stdio.h>
+int main()
+{
+    int i,j,m=0,n=0;
+    scanf("%d",&i);
+    int c=0;
+    while(c<i)
+    {
+        scanf("%d",&j);
+        if (j>0)
+        {
+            m++;
+        }
+        else if (j<0)
+        {
+            n++;
+        }
+        c++;
+    }
+    printf("%d\n",m);
+    printf("%d\n",n);
+    return 0;
+}
+
