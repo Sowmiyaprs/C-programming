@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+   float side,radius,area;
+   scanf("%f",&side);
+   radius=side/2;
+   area=3.14*(radius*radius);
+   printf("%.2f",area);
+   
+   
+   
+   return 0;
+}
