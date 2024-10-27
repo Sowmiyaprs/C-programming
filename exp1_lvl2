@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+   int x,m;
+   printf("ENTER THE NUMBER OF PYRAMIDS:");
+   scanf("%d",&x);
+   m=3*x*(x+1)/2;
+   printf("%d\n",m);
+   if(m==0)
+   {
+       printf("INVALID INPUT");
+   }
+   
+   return 0;
+}
