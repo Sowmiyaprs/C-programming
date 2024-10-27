@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int P,T,R;
+    float si;
+    scanf("%d%d%d",&P,&T,&R);
+    
+    si=(float)P*T*R/100;
+    printf("%.2f",si);
+    
+}
+
